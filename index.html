@@ -2,53 +2,33 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Web Visualization (Latitude)</title>
-  <!--Bootstrap style sheet-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-  <!--link to style sheet-->
-  <link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="UTF-8">
+<title>Web Visualization (Latitude)</title>
+<!--Bootstrap style sheet-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!--link to style sheet-->
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Plots
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="visualization_pages/temp.html">Max
-                                Temperature</a>
-                            <a class="dropdown-item" href="visualization_pages/humidity.html">Humidity</a>
-                            <a class="dropdown-item" href="visualization_pages/cloudiness.html">Cloudiness</a>
-                            <a class="dropdown-item" href="visualization_pages/wind.html">Wind Speed</a>
-                        </ul>
-                    </li>-->
-
 <!--Top Nav Bar-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-    <a class="navbar-brand" href="#">Latitude</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-        <div class="nav navbar-nav navbar-right">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Plots</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="https://www.google.com">Max Temperature</a></li>
-                        <li><a class="dropdown-item" href="https://www.yahoo.com">Humidity</a></li>
-                        <li><a class="dropdown-item" href="https://www.nfl.com">Cloudiness</a></li>
-                        <li><a class="dropdown-item" href="https://www.nba.com">Windspeed</a></li>
-                    </ul>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="https://rec.secure1.com">Comparison</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://www.bing.com">Data</a>
-            </li>
-    </div>
-    </div>
-</nav>
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">Active</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Max Temperature</a></li>
+        <li><a class="dropdown-item" href="#">Humidity</a></li>
+        <li><a class="dropdown-item" href="#">Cloudiness</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Windspeed</a></li>
+      </ul>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </li>
+  </ul>
