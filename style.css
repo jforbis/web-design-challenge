@@ -5,7 +5,7 @@ body {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 18px;
     line-height: 150%;
-    color: #333;
+    color: rgb(255, 255, 255);
     background: #9f9b9b;
 }
 
@@ -26,4 +26,30 @@ body {
 
 .dropdown:hover .dropdown-menu {
     display: block;
+}
+
+h1 {
+    padding: 25px;
+    margin: 10px;
+    color: white
+}
+
+hr {
+    height: 2px;
+    background-color: white
+}
+
+.card {
+    color: #9f9b9b;
+    font-size: 14px;
+    margin: 0,0,0,20px
+}
+
+.card-img-top {
+    width: 90%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 18px
 }
