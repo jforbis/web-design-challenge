@@ -34,6 +34,12 @@ h1 {
     color: white
 }
 
+h3 {
+    margin-left: 35px;
+    color: white;
+    font-size: 16px
+}
+
 hr {
     height: 2px;
     background-color: white
@@ -60,4 +66,62 @@ hr {
 
 .card-title {
     font-size: 18px
+}
+
+.tg {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+.tg td {
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+.tg th {
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+.tg .tg-urxo {
+    border-color:#ffffff;
+    color:#ffffff;
+    text-align:center;
+    vertical-align:top
+}
+
+.tg .tg-11lg {
+    border-color:#ffffff;
+    color:#ffffff;
+    font-weight:bold;
+    text-align:right;
+    vertical-align:top
+}
+
+.tg .tg-iejp {
+    border-color:#ffffff;
+    color:#ffffff;
+    font-weight:bold;
+    text-align:center;
+    vertical-align:top
+}
+
+.tg .tg-il3a {
+    border-color:#ffffff;
+    color:#ffffff;
+    text-align:left;
+    vertical-align:top
 }
