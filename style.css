@@ -42,7 +42,15 @@ hr {
 .card {
     color: #9f9b9b;
     font-size: 14px;
-    margin: 0,0,0,20px
+    margin-left: 40px;
+    margin-top: top;
+    border-color: #9f9b9b;
+    vertical-align: text-top
+}
+
+.second_card {
+    margin-top: -140px;
+    margin-left: 40px
 }
 
 .card-img-top {
