@@ -1,13 +1,12 @@
-# web-design-challenge
+# Latitude Analysis Dashboard using HTML, CSS, and Bootstrap
 
-## Latitude - Latitude Analysis Dashboard with Attitude
-
-For this project I created a visualization dashboard website using visualizations from a previous project that looked at the effect of proximity to the equator on specific weather statistics: Max Temp, Humidity, Cloudiness & Wind Speed. 
+For this project I created a visualization dashboard website using visualizations from a previous project that looked at the effect of proximity to the equator on the specific weather statistics: Max Temp, Humidity, Cloudiness & Wind Speed. 
 
 My visualization dashboard includes the following (images of each page of the dashboard can be found at the end of this README file):
-* A [landing page](#landing-page) containing:
+* A [Summary page](#summary-page) containing:
   * An explanation of the weather project.
-  * Links to each visualizations page. I also included a sidebar containing preview images of each plot. Clicking any of the images will take you to that specific visualization's page.
+  * Links to each visualization's page. I also included a sidebar containing preview images of each plot.
+      * Clicking any of the images will take you to that specific visualization's page.
 * Four [visualization pages](#visualization-pages), each with:
   * The visualization of the selected comparison.
   * A brief description of the plot and its significance.
@@ -20,61 +19,47 @@ My visualization dashboard includes the following (images of each page of the da
 
     * I used pandas to read in the `.csv` of my original project data. Then I read it to a HTML file so I could then import that into my overall site.
 
-This website can be reached at: [Weather Project Visualization Dashboard]()
+This website can be reached at: [Weather Project Visualization Dashboard](https://jforbis.github.io/web-design-challenge/)</br>
+  * This site is being deployed through GitHub and the direct url is 'https://jforbis.github.io/web-design-challenge/'
 
+***
 
-### Screenshots
+## Screenshots
 
-This section contains screenshots of each page that must be built, at varying screen widths. These are a guide; you can meet the requirements without having the pages look exactly like the below images.
+This section contains screenshots of each page of my site. 
 
-#### <a id="landing-page"></a>Landing page
+#### <a id="summary-page"></a>_Summary page_
 
-Large screen:
+![Landing page large screen](readme_images/summary_page.jpg)
 
-![Landing page large screen](Images/landingResize.png)
+#### <a id="comparisons-page"></a>_Comparisons page_
 
-Small screen:
+![comparison page large screen](readme_images/comparisons.jpg)
 
-![Landing page small screen](Images/landing-sm.png)
-￼
+#### <a id="data-page"></a>_Data page_
 
-#### <a id="comparisons-page"></a>Comparisons page
+![data page large screen](readme_images/data.jpg)
 
-Large screen:
+***
 
-![comparison page large screen](Images/comparison-lg.png)
+## <a id="visualization-pages"></a>Visualization pages
 
-Small screen:
+_Max Temp_
 
-![comparison page small screen](Images/comparison-sm.png)
+![visualize page large screen](readme_images/max_temp.jpg)
 
-#### <a id="data-page"></a>Data page
+_Humidity_
 
-Large screen:
+![visualize page small screen](readme_images/humidity.jpg)
 
-![data page large screen](Images/data-lg.png)
+_Cloudiness_
 
+![visualize page large screen](readme_images/cloudiness.jpg)
 
-Small screen:
+_Wind Speed_
 
-![data page small screen](Images/data-sm.png)
+![visualize page large screen](readme_images/wind_speed.jpg)
 
-#### <a id="visualization-pages"></a>Visualization pages
+#### <a id="navigation-menu"></a>_Navigation menu_
 
-You'll build four of these, one for each visualization. Here's an example of one:
-
-Large screen:
-
-![visualize page large screen](Images/visualize-lg.png)
-
-Small screen:
-
-![visualize page small screen](Images/visualize-sm.png)
-
-#### <a id="navigation-menu"></a>Navigation menu
-
-Large screen:
-![nav menu large screen](Images/nav-lg.png)
-
-Small screen:
-![nav menu small screen](Images/nav-sm.png)
+![nav menu large screen](readme_images/navigation.jpg)
